@@ -8,3 +8,5 @@ __pycache__/
 .env.*
 *.aof
 rewrite.tmp
+node_modules/
+.venv/

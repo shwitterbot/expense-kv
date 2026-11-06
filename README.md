@@ -76,6 +76,39 @@ TLS сервер не поддерживает, для недоверенной 
 Inline-команды, RESP3, MULTI/EXEC, Lua, коллекции, репликация и кластер не реализованы.
 Полная совместимость с Redis не заявляется.
 
+## Подключение к Django и другим фреймворкам
+
+Сервер работает отдельно; приложение подключается Redis-клиентом в режиме RESP2.
+По умолчанию адрес — `redis://127.0.0.1:6380/0`.
+
+| Фреймворк | Пример |
+|---|---|
+| Django | [Cache backend](examples/django_backend.py) и [настройки CACHES](examples/django_settings.py) |
+| FastAPI | [Async-клиент с lifespan](examples/fastapi_app.py) |
+| Flask | [JSON-кэш с пулом соединений](examples/flask_app.py) |
+| Express / Node.js | [Клиент ioredis и HTTP-маршрут](examples/express.mjs) |
+
+Для Django установите `redis==8.1.0`, скопируйте backend в пакет своего проекта
+и добавьте alias `expensekv` из файла настроек, указав путь к скопированному классу.
+Backend использует штатную сериализацию Django; `set_many()` выполняется отдельными
+SET без транзакций. После настройки:
+
+```python
+from django.core.cache import caches
+
+cache = caches["expensekv"]
+cache.set("report:demo", {"total_minor": 12500}, timeout=60)
+assert cache.get("report:demo")["total_minor"] == 12500
+cache.delete("report:demo")
+```
+
+Примеры читают `EXPENSE_KV_URL` и необязательный `EXPENSE_KV_PASSWORD`.
+Используется DB 0 и пароль без ACL-имени пользователя. Обычный `RedisCache.set_many()`
+и транзакционные pipeline требуют неподдерживаемых MULTI/EXEC, поэтому важны настройки
+из примеров. Готовые Redis-адаптеры для очередей/сессий/блокировок отдельно не проверялись.
+
+**[Пошаговая инструкция: установка, настройки, запуск, fallback и ограничения](docs/integrations.md).**
+
 ## Надёжность и производительность
 
 Успешная запись проходит WAL → `sync_data` → изменение памяти → ответ. Ошибка диска

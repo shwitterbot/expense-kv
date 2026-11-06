@@ -1,0 +1,10 @@
+{
+  "name": "expense-kv-examples",
+  "private": true,
+  "type": "module",
+  "scripts": {"start": "node express.mjs"},
+  "dependencies": {
+    "express": "5.3.0",
+    "ioredis": "6.0.0"
+  }
+}
