@@ -1,0 +1,1930 @@
+{
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "timestamp_utc": "2026-11-06T08:36:10Z",
+  "redis": "Redis server v=8.10.2 sha=00000000:1 malloc=libc bits=64 build=764b3e45065a66fb",
+  "runs": 3,
+  "get_seconds": 2,
+  "samples": [
+    {
+      "engine": "expense-kv",
+      "run": 1,
+      "keys": 10000,
+      "value_bytes": 64,
+      "ttl": false,
+      "dataset_sha256": "ba1d3328bb5d84f162771a418a7f466ad676eb306613b7f77a4ac5cc5e36fe76",
+      "empty": {
+        "rss_bytes": 1638400,
+        "physical_footprint_bytes": 1261952,
+        "lifetime_peak_footprint_bytes": 1294720
+      },
+      "loaded": {
+        "rss_bytes": 4620288,
+        "physical_footprint_bytes": 4702616,
+        "lifetime_peak_footprint_bytes": 4735384
+      },
+      "internal": {
+        "metric": "used_memory_estimate",
+        "bytes": 1420000,
+        "maxmemory_bytes": 67108864
+      },
+      "loading": {
+        "duration_seconds": 0.8743168750079349,
+        "samples": 38,
+        "max_rss_bytes": 4767744,
+        "max_physical_footprint_bytes": 4669848,
+        "max_lifetime_peak_footprint_bytes": 4702616
+      },
+      "idle_50_clients": {
+        "rss_bytes": 6520832,
+        "physical_footprint_bytes": 6750712,
+        "lifetime_peak_footprint_bytes": 6750712
+      },
+      "get_50_clients": {
+        "duration_seconds": 2.012441291997675,
+        "samples": 92,
+        "max_rss_bytes": 6438912,
+        "max_physical_footprint_bytes": 7045648,
+        "max_lifetime_peak_footprint_bytes": 7111184
+      },
+      "after_get": {
+        "rss_bytes": 3522560,
+        "physical_footprint_bytes": 6193584,
+        "lifetime_peak_footprint_bytes": 7111184
+      },
+      "flushed": {
+        "rss_bytes": 2260992,
+        "physical_footprint_bytes": 6193584,
+        "lifetime_peak_footprint_bytes": 7111184
+      },
+      "flushed_internal": {
+        "metric": "used_memory_estimate",
+        "bytes": 0,
+        "maxmemory_bytes": 67108864
+      },
+      "incremental_rss_bytes_per_key": 298.1888
+    },
+    {
+      "engine": "redis",
+      "run": 1,
+      "keys": 10000,
+      "value_bytes": 64,
+      "ttl": false,
+      "dataset_sha256": "ba1d3328bb5d84f162771a418a7f466ad676eb306613b7f77a4ac5cc5e36fe76",
+      "empty": {
+        "rss_bytes": 6062080,
+        "physical_footprint_bytes": 3490224,
+        "lifetime_peak_footprint_bytes": 3490224
+      },
+      "loaded": {
+        "rss_bytes": 4734976,
+        "physical_footprint_bytes": 5554608,
+        "lifetime_peak_footprint_bytes": 5554608
+      },
+      "internal": {
+        "metric": "used_memory",
+        "bytes": 2463232,
+        "maxmemory_bytes": 67108864
+      },
+      "loading": {
+        "duration_seconds": 11.573548167012632,
+        "samples": 504,
+        "max_rss_bytes": 6488064,
+        "max_physical_footprint_bytes": 5538224,
+        "max_lifetime_peak_footprint_bytes": 5538224
+      },
+      "idle_50_clients": {
+        "rss_bytes": 5505024,
+        "physical_footprint_bytes": 6390192,
+        "lifetime_peak_footprint_bytes": 6390192
+      },
+      "get_50_clients": {
+        "duration_seconds": 2.1356571250071283,
+        "samples": 91,
+        "max_rss_bytes": 5046272,
+        "max_physical_footprint_bytes": 6488496,
+        "max_lifetime_peak_footprint_bytes": 6488496
+      },
+      "after_get": {
+        "rss_bytes": 3653632,
+        "physical_footprint_bytes": 6488496,
+        "lifetime_peak_footprint_bytes": 6488496
+      },
+      "flushed": {
+        "rss_bytes": 5603328,
+        "physical_footprint_bytes": 6537648,
+        "lifetime_peak_footprint_bytes": 6537648
+      },
+      "flushed_internal": {
+        "metric": "used_memory",
+        "bytes": 1088432,
+        "maxmemory_bytes": 67108864
+      },
+      "incremental_rss_bytes_per_key": -132.7104
+    },
+    {
+      "engine": "redis",
+      "run": 2,
+      "keys": 10000,
+      "value_bytes": 64,
+      "ttl": false,
+      "dataset_sha256": "ba1d3328bb5d84f162771a418a7f466ad676eb306613b7f77a4ac5cc5e36fe76",
+      "empty": {
+        "rss_bytes": 6897664,
+        "physical_footprint_bytes": 3441072,
+        "lifetime_peak_footprint_bytes": 3441072
+      },
+      "loaded": {
+        "rss_bytes": 4767744,
+        "physical_footprint_bytes": 5472688,
+        "lifetime_peak_footprint_bytes": 5472688
+      },
+      "internal": {
+        "metric": "used_memory",
+        "bytes": 2462656,
+        "maxmemory_bytes": 67108864
+      },
+      "loading": {
+        "duration_seconds": 3.6647782500076573,
+        "samples": 162,
+        "max_rss_bytes": 7077888,
+        "max_physical_footprint_bytes": 5439920,
+        "max_lifetime_peak_footprint_bytes": 5439920
+      },
+      "idle_50_clients": {
+        "rss_bytes": 5423104,
+        "physical_footprint_bytes": 6291888,
+        "lifetime_peak_footprint_bytes": 6390192
+      },
+      "get_50_clients": {
+        "duration_seconds": 2.0337759160029236,
+        "samples": 88,
+        "max_rss_bytes": 5128192,
+        "max_physical_footprint_bytes": 6422960,
+        "max_lifetime_peak_footprint_bytes": 6422960
+      },
+      "after_get": {
+        "rss_bytes": 3653632,
+        "physical_footprint_bytes": 6406576,
+        "lifetime_peak_footprint_bytes": 6422960
+      },
+      "flushed": {
+        "rss_bytes": 3407872,
+        "physical_footprint_bytes": 6455728,
+        "lifetime_peak_footprint_bytes": 6455728
+      },
+      "flushed_internal": {
+        "metric": "used_memory",
+        "bytes": 1088240,
+        "maxmemory_bytes": 67108864
+      },
+      "incremental_rss_bytes_per_key": -212.992
+    },
+    {
+      "engine": "expense-kv",
+      "run": 2,
+      "keys": 10000,
+      "value_bytes": 64,
+      "ttl": false,
+      "dataset_sha256": "ba1d3328bb5d84f162771a418a7f466ad676eb306613b7f77a4ac5cc5e36fe76",
+      "empty": {
+        "rss_bytes": 1654784,
+        "physical_footprint_bytes": 1261952,
+        "lifetime_peak_footprint_bytes": 1294720
+      },
+      "loaded": {
+        "rss_bytes": 4308992,
+        "physical_footprint_bytes": 4227480,
+        "lifetime_peak_footprint_bytes": 4260248
+      },
+      "internal": {
+        "metric": "used_memory_estimate",
+        "bytes": 1420000,
+        "maxmemory_bytes": 67108864
+      },
+      "loading": {
+        "duration_seconds": 4.533012458996382,
+        "samples": 197,
+        "max_rss_bytes": 4292608,
+        "max_physical_footprint_bytes": 4227480,
+        "max_lifetime_peak_footprint_bytes": 4260248
+      },
+      "idle_50_clients": {
+        "rss_bytes": 6078464,
+        "physical_footprint_bytes": 6521360,
+        "lifetime_peak_footprint_bytes": 6521360
+      },
+      "get_50_clients": {
+        "duration_seconds": 2.016011041996535,
+        "samples": 85,
+        "max_rss_bytes": 5931008,
+        "max_physical_footprint_bytes": 6570512,
+        "max_lifetime_peak_footprint_bytes": 6619664
+      },
+      "after_get": {
+        "rss_bytes": 5111808,
+        "physical_footprint_bytes": 5194160,
+        "lifetime_peak_footprint_bytes": 6619664
+      },
+      "flushed": {
+        "rss_bytes": 5816320,
+        "physical_footprint_bytes": 5194160,
+        "lifetime_peak_footprint_bytes": 6619664
+      },
+      "flushed_internal": {
+        "metric": "used_memory_estimate",
+        "bytes": 0,
+        "maxmemory_bytes": 67108864
+      },
+      "incremental_rss_bytes_per_key": 265.4208
+    },
+    {
+      "engine": "expense-kv",
+      "run": 3,
+      "keys": 10000,
+      "value_bytes": 64,
+      "ttl": false,
+      "dataset_sha256": "ba1d3328bb5d84f162771a418a7f466ad676eb306613b7f77a4ac5cc5e36fe76",
+      "empty": {
+        "rss_bytes": 1998848,
+        "physical_footprint_bytes": 1261952,
+        "lifetime_peak_footprint_bytes": 1311128
+      },
+      "loaded": {
+        "rss_bytes": 5406720,
+        "physical_footprint_bytes": 4686232,
+        "lifetime_peak_footprint_bytes": 4735408
+      },
+      "internal": {
+        "metric": "used_memory_estimate",
+        "bytes": 1420000,
+        "maxmemory_bytes": 67108864
+      },
+      "loading": {
+        "duration_seconds": 0.27719304198399186,
+        "samples": 13,
+        "max_rss_bytes": 5406720,
+        "max_physical_footprint_bytes": 4686232,
+        "max_lifetime_peak_footprint_bytes": 4735408
+      },
+      "idle_50_clients": {
+        "rss_bytes": 7340032,
+        "physical_footprint_bytes": 6734328,
+        "lifetime_peak_footprint_bytes": 6734328
+      },
+      "get_50_clients": {
+        "duration_seconds": 2.0089505829964764,
+        "samples": 87,
+        "max_rss_bytes": 7307264,
+        "max_physical_footprint_bytes": 7553528,
+        "max_lifetime_peak_footprint_bytes": 7553528
+      },
+      "after_get": {
+        "rss_bytes": 3260416,
+        "physical_footprint_bytes": 6242712,
+        "lifetime_peak_footprint_bytes": 7553528
+      },
+      "flushed": {
+        "rss_bytes": 5226496,
+        "physical_footprint_bytes": 6242712,
+        "lifetime_peak_footprint_bytes": 7553528
+      },
+      "flushed_internal": {
+        "metric": "used_memory_estimate",
+        "bytes": 0,
+        "maxmemory_bytes": 67108864
+      },
+      "incremental_rss_bytes_per_key": 340.7872
+    },
+    {
+      "engine": "redis",
+      "run": 3,
+      "keys": 10000,
+      "value_bytes": 64,
+      "ttl": false,
+      "dataset_sha256": "ba1d3328bb5d84f162771a418a7f466ad676eb306613b7f77a4ac5cc5e36fe76",
+      "empty": {
+        "rss_bytes": 7618560,
+        "physical_footprint_bytes": 3506608,
+        "lifetime_peak_footprint_bytes": 3506608
+      },
+      "loaded": {
+        "rss_bytes": 8306688,
+        "physical_footprint_bytes": 5587376,
+        "lifetime_peak_footprint_bytes": 5587376
+      },
+      "internal": {
+        "metric": "used_memory",
+        "bytes": 2541040,
+        "maxmemory_bytes": 67108864
+      },
+      "loading": {
+        "duration_seconds": 0.29244816600112244,
+        "samples": 14,
+        "max_rss_bytes": 8912896,
+        "max_physical_footprint_bytes": 5538224,
+        "max_lifetime_peak_footprint_bytes": 5538224
+      },
+      "idle_50_clients": {
+        "rss_bytes": 9109504,
+        "physical_footprint_bytes": 6504880,
+        "lifetime_peak_footprint_bytes": 6504880
+      },
+      "get_50_clients": {
+        "duration_seconds": 2.0310922500211746,
+        "samples": 87,
+        "max_rss_bytes": 8323072,
+        "max_physical_footprint_bytes": 6635952,
+        "max_lifetime_peak_footprint_bytes": 6635952
+      },
+      "after_get": {
+        "rss_bytes": 8257536,
+        "physical_footprint_bytes": 6635952,
+        "lifetime_peak_footprint_bytes": 6635952
+      },
+      "flushed": {
+        "rss_bytes": 9289728,
+        "physical_footprint_bytes": 6668720,
+        "lifetime_peak_footprint_bytes": 6668720
+      },
+      "flushed_internal": {
+        "metric": "used_memory",
+        "bytes": 1088240,
+        "maxmemory_bytes": 67108864
+      },
+      "incremental_rss_bytes_per_key": 68.8128
+    },
+    {
+      "engine": "expense-kv",
+      "run": 1,
+      "keys": 50000,
+      "value_bytes": 64,
+      "ttl": false,
+      "dataset_sha256": "7ad61c030f33724a72814f8c1c25151352e840ee5558d2c0bf8835445f0d3f84",
+      "empty": {
+        "rss_bytes": 1998848,
+        "physical_footprint_bytes": 1261952,
+        "lifetime_peak_footprint_bytes": 1294720
+      },
+      "loaded": {
+        "rss_bytes": 12386304,
+        "physical_footprint_bytes": 14418328,
+        "lifetime_peak_footprint_bytes": 14451096
+      },
+      "internal": {
+        "metric": "used_memory_estimate",
+        "bytes": 7100000,
+        "maxmemory_bytes": 67108864
+      },
+      "loading": {
+        "duration_seconds": 1.3803255840030033,
+        "samples": 60,
+        "max_rss_bytes": 13713408,
+        "max_physical_footprint_bytes": 14418328,
+        "max_lifetime_peak_footprint_bytes": 14451096
+      },
+      "idle_50_clients": {
+        "rss_bytes": 13811712,
+        "physical_footprint_bytes": 15876600,
+        "lifetime_peak_footprint_bytes": 15876600
+      },
+      "get_50_clients": {
+        "duration_seconds": 2.00937666700338,
+        "samples": 85,
+        "max_rss_bytes": 14467072,
+        "max_physical_footprint_bytes": 16728568,
+        "max_lifetime_peak_footprint_bytes": 16728568
+      },
+      "after_get": {
+        "rss_bytes": 11206656,
+        "physical_footprint_bytes": 12075416,
+        "lifetime_peak_footprint_bytes": 16728568
+      },
+      "flushed": {
+        "rss_bytes": 15204352,
+        "physical_footprint_bytes": 12075416,
+        "lifetime_peak_footprint_bytes": 16728568
+      },
+      "flushed_internal": {
+        "metric": "used_memory_estimate",
+        "bytes": 0,
+        "maxmemory_bytes": 67108864
+      },
+      "incremental_rss_bytes_per_key": 207.74912
+    },
+    {
+      "engine": "redis",
+      "run": 1,
+      "keys": 50000,
+      "value_bytes": 64,
+      "ttl": false,
+      "dataset_sha256": "7ad61c030f33724a72814f8c1c25151352e840ee5558d2c0bf8835445f0d3f84",
+      "empty": {
+        "rss_bytes": 7569408,
+        "physical_footprint_bytes": 3457456,
+        "lifetime_peak_footprint_bytes": 3457456
+      },
+      "loaded": {
+        "rss_bytes": 15089664,
+        "physical_footprint_bytes": 11583920,
+        "lifetime_peak_footprint_bytes": 11583920
+      },
+      "internal": {
+        "metric": "used_memory",
+        "bytes": 8174224,
+        "maxmemory_bytes": 67108864
+      },
+      "loading": {
+        "duration_seconds": 1.937299332988914,
+        "samples": 84,
+        "max_rss_bytes": 15024128,
+        "max_physical_footprint_bytes": 11534768,
+        "max_lifetime_peak_footprint_bytes": 11534768
+      },
+      "idle_50_clients": {
+        "rss_bytes": 15286272,
+        "physical_footprint_bytes": 12517808,
+        "lifetime_peak_footprint_bytes": 12517808
+      },
+      "get_50_clients": {
+        "duration_seconds": 2.0122335420164745,
+        "samples": 86,
+        "max_rss_bytes": 14974976,
+        "max_physical_footprint_bytes": 12583344,
+        "max_lifetime_peak_footprint_bytes": 12583344
+      },
+      "after_get": {
+        "rss_bytes": 9666560,
+        "physical_footprint_bytes": 12190128,
+        "lifetime_peak_footprint_bytes": 12583344
+      },
+      "flushed": {
+        "rss_bytes": 9191424,
+        "physical_footprint_bytes": 12222896,
+        "lifetime_peak_footprint_bytes": 12583344
+      },
+      "flushed_internal": {
+        "metric": "used_memory",
+        "bytes": 1084928,
+        "maxmemory_bytes": 67108864
+      },
+      "incremental_rss_bytes_per_key": 150.40512
+    },
+    {
+      "engine": "redis",
+      "run": 2,
+      "keys": 50000,
+      "value_bytes": 64,
+      "ttl": false,
+      "dataset_sha256": "7ad61c030f33724a72814f8c1c25151352e840ee5558d2c0bf8835445f0d3f84",
+      "empty": {
+        "rss_bytes": 7340032,
+        "physical_footprint_bytes": 3490200,
+        "lifetime_peak_footprint_bytes": 3490200
+      },
+      "loaded": {
+        "rss_bytes": 12238848,
+        "physical_footprint_bytes": 11698584,
+        "lifetime_peak_footprint_bytes": 11698584
+      },
+      "internal": {
+        "metric": "used_memory",
+        "bytes": 8173840,
+        "maxmemory_bytes": 67108864
+      },
+      "loading": {
+        "duration_seconds": 1.4539539999968838,
+        "samples": 63,
+        "max_rss_bytes": 12222464,
+        "max_physical_footprint_bytes": 11665816,
+        "max_lifetime_peak_footprint_bytes": 11665816
+      },
+      "idle_50_clients": {
+        "rss_bytes": 11943936,
+        "physical_footprint_bytes": 12616088,
+        "lifetime_peak_footprint_bytes": 12616088
+      },
+      "get_50_clients": {
+        "duration_seconds": 2.034058000019286,
+        "samples": 87,
+        "max_rss_bytes": 12025856,
+        "max_physical_footprint_bytes": 12665240,
+        "max_lifetime_peak_footprint_bytes": 12665240
+      },
+      "after_get": {
+        "rss_bytes": 11075584,
+        "physical_footprint_bytes": 12632472,
+        "lifetime_peak_footprint_bytes": 12665240
+      },
+      "flushed": {
+        "rss_bytes": 9011200,
+        "physical_footprint_bytes": 11747736,
+        "lifetime_peak_footprint_bytes": 12665240
+      },
+      "flushed_internal": {
+        "metric": "used_memory",
+        "bytes": 1084928,
+        "maxmemory_bytes": 67108864
+      },
+      "incremental_rss_bytes_per_key": 97.97632
+    },
+    {
+      "engine": "expense-kv",
+      "run": 2,
+      "keys": 50000,
+      "value_bytes": 64,
+      "ttl": false,
+      "dataset_sha256": "7ad61c030f33724a72814f8c1c25151352e840ee5558d2c0bf8835445f0d3f84",
+      "empty": {
+        "rss_bytes": 1998848,
+        "physical_footprint_bytes": 1261952,
+        "lifetime_peak_footprint_bytes": 1294720
+      },
+      "loaded": {
+        "rss_bytes": 14663680,
+        "physical_footprint_bytes": 14303640,
+        "lifetime_peak_footprint_bytes": 14336408
+      },
+      "internal": {
+        "metric": "used_memory_estimate",
+        "bytes": 7100000,
+        "maxmemory_bytes": 67108864
+      },
+      "loading": {
+        "duration_seconds": 1.2016671669844072,
+        "samples": 52,
+        "max_rss_bytes": 14663680,
+        "max_physical_footprint_bytes": 14303640,
+        "max_lifetime_peak_footprint_bytes": 14336408
+      },
+      "idle_50_clients": {
+        "rss_bytes": 13254656,
+        "physical_footprint_bytes": 15827448,
+        "lifetime_peak_footprint_bytes": 15827448
+      },
+      "get_50_clients": {
+        "duration_seconds": 2.0056225410080515,
+        "samples": 86,
+        "max_rss_bytes": 12369920,
+        "max_physical_footprint_bytes": 16138744,
+        "max_lifetime_peak_footprint_bytes": 16138744
+      },
+      "after_get": {
+        "rss_bytes": 11599872,
+        "physical_footprint_bytes": 13746584,
+        "lifetime_peak_footprint_bytes": 16138744
+      },
+      "flushed": {
+        "rss_bytes": 15646720,
+        "physical_footprint_bytes": 13746584,
+        "lifetime_peak_footprint_bytes": 16138744
+      },
+      "flushed_internal": {
+        "metric": "used_memory_estimate",
+        "bytes": 0,
+        "maxmemory_bytes": 67108864
+      },
+      "incremental_rss_bytes_per_key": 253.29664
+    },
+    {
+      "engine": "expense-kv",
+      "run": 3,
+      "keys": 50000,
+      "value_bytes": 64,
+      "ttl": false,
+      "dataset_sha256": "7ad61c030f33724a72814f8c1c25151352e840ee5558d2c0bf8835445f0d3f84",
+      "empty": {
+        "rss_bytes": 1998848,
+        "physical_footprint_bytes": 1261952,
+        "lifetime_peak_footprint_bytes": 1294720
+      },
+      "loaded": {
+        "rss_bytes": 10027008,
+        "physical_footprint_bytes": 14254488,
+        "lifetime_peak_footprint_bytes": 14287256
+      },
+      "internal": {
+        "metric": "used_memory_estimate",
+        "bytes": 7100000,
+        "maxmemory_bytes": 67108864
+      },
+      "loading": {
+        "duration_seconds": 1.289780792023521,
+        "samples": 56,
+        "max_rss_bytes": 14057472,
+        "max_physical_footprint_bytes": 14238104,
+        "max_lifetime_peak_footprint_bytes": 14254488
+      },
+      "idle_50_clients": {
+        "rss_bytes": 11927552,
+        "physical_footprint_bytes": 16040416,
+        "lifetime_peak_footprint_bytes": 16040416
+      },
+      "get_50_clients": {
+        "duration_seconds": 2.0310889579996,
+        "samples": 90,
+        "max_rss_bytes": 11468800,
+        "max_physical_footprint_bytes": 16499168,
+        "max_lifetime_peak_footprint_bytes": 16499168
+      },
+      "after_get": {
+        "rss_bytes": 2768896,
+        "physical_footprint_bytes": 11944344,
+        "lifetime_peak_footprint_bytes": 16499168
+      },
+      "flushed": {
+        "rss_bytes": 5767168,
+        "physical_footprint_bytes": 11862424,
+        "lifetime_peak_footprint_bytes": 16499168
+      },
+      "flushed_internal": {
+        "metric": "used_memory_estimate",
+        "bytes": 0,
+        "maxmemory_bytes": 67108864
+      },
+      "incremental_rss_bytes_per_key": 160.5632
+    },
+    {
+      "engine": "redis",
+      "run": 3,
+      "keys": 50000,
+      "value_bytes": 64,
+      "ttl": false,
+      "dataset_sha256": "7ad61c030f33724a72814f8c1c25151352e840ee5558d2c0bf8835445f0d3f84",
+      "empty": {
+        "rss_bytes": 5881856,
+        "physical_footprint_bytes": 3457456,
+        "lifetime_peak_footprint_bytes": 3457456
+      },
+      "loaded": {
+        "rss_bytes": 13877248,
+        "physical_footprint_bytes": 11633072,
+        "lifetime_peak_footprint_bytes": 11633072
+      },
+      "internal": {
+        "metric": "used_memory",
+        "bytes": 8175616,
+        "maxmemory_bytes": 67108864
+      },
+      "loading": {
+        "duration_seconds": 3.3169144580024295,
+        "samples": 142,
+        "max_rss_bytes": 13729792,
+        "max_physical_footprint_bytes": 11583920,
+        "max_lifetime_peak_footprint_bytes": 11583920
+      },
+      "idle_50_clients": {
+        "rss_bytes": 14811136,
+        "physical_footprint_bytes": 12501424,
+        "lifetime_peak_footprint_bytes": 12501424
+      },
+      "get_50_clients": {
+        "duration_seconds": 2.009425291005755,
+        "samples": 83,
+        "max_rss_bytes": 14893056,
+        "max_physical_footprint_bytes": 12583344,
+        "max_lifetime_peak_footprint_bytes": 12583344
+      },
+      "after_get": {
+        "rss_bytes": 9273344,
+        "physical_footprint_bytes": 12124592,
+        "lifetime_peak_footprint_bytes": 12583344
+      },
+      "flushed": {
+        "rss_bytes": 14745600,
+        "physical_footprint_bytes": 12173744,
+        "lifetime_peak_footprint_bytes": 12583344
+      },
+      "flushed_internal": {
+        "metric": "used_memory",
+        "bytes": 1084928,
+        "maxmemory_bytes": 67108864
+      },
+      "incremental_rss_bytes_per_key": 159.90784
+    },
+    {
+      "engine": "expense-kv",
+      "run": 1,
+      "keys": 10000,
+      "value_bytes": 4096,
+      "ttl": false,
+      "dataset_sha256": "240181aba7a0d4dfd64c2ab7aaaabf5bb321dc869d043d19824503538b7443e2",
+      "empty": {
+        "rss_bytes": 1998848,
+        "physical_footprint_bytes": 1261952,
+        "lifetime_peak_footprint_bytes": 1294720
+      },
+      "loaded": {
+        "rss_bytes": 19431424,
+        "physical_footprint_bytes": 60555720,
+        "lifetime_peak_footprint_bytes": 60588488
+      },
+      "internal": {
+        "metric": "used_memory_estimate",
+        "bytes": 41740000,
+        "maxmemory_bytes": 67108864
+      },
+      "loading": {
+        "duration_seconds": 1.662515167001402,
+        "samples": 71,
+        "max_rss_bytes": 48005120,
+        "max_physical_footprint_bytes": 60555720,
+        "max_lifetime_peak_footprint_bytes": 60588488
+      },
+      "idle_50_clients": {
+        "rss_bytes": 21413888,
+        "physical_footprint_bytes": 62571024,
+        "lifetime_peak_footprint_bytes": 62571024
+      },
+      "get_50_clients": {
+        "duration_seconds": 2.010632124991389,
+        "samples": 86,
+        "max_rss_bytes": 22560768,
+        "max_physical_footprint_bytes": 63717928,
+        "max_lifetime_peak_footprint_bytes": 63750696
+      },
+      "after_get": {
+        "rss_bytes": 3293184,
+        "physical_footprint_bytes": 62849504,
+        "lifetime_peak_footprint_bytes": 63750696
+      },
+      "flushed": {
+        "rss_bytes": 33095680,
+        "physical_footprint_bytes": 62849504,
+        "lifetime_peak_footprint_bytes": 63750696
+      },
+      "flushed_internal": {
+        "metric": "used_memory_estimate",
+        "bytes": 0,
+        "maxmemory_bytes": 67108864
+      },
+      "incremental_rss_bytes_per_key": 1743.2576
+    },
+    {
+      "engine": "redis",
+      "run": 1,
+      "keys": 10000,
+      "value_bytes": 4096,
+      "ttl": false,
+      "dataset_sha256": "240181aba7a0d4dfd64c2ab7aaaabf5bb321dc869d043d19824503538b7443e2",
+      "empty": {
+        "rss_bytes": 7536640,
+        "physical_footprint_bytes": 3424688,
+        "lifetime_peak_footprint_bytes": 3424688
+      },
+      "loaded": {
+        "rss_bytes": 16449536,
+        "physical_footprint_bytes": 59490784,
+        "lifetime_peak_footprint_bytes": 59490784
+      },
+      "internal": {
+        "metric": "used_memory",
+        "bytes": 52859552,
+        "maxmemory_bytes": 67108864
+      },
+      "loading": {
+        "duration_seconds": 0.5319879579765256,
+        "samples": 23,
+        "max_rss_bytes": 45268992,
+        "max_physical_footprint_bytes": 59425248,
+        "max_lifetime_peak_footprint_bytes": 59425248
+      },
+      "idle_50_clients": {
+        "rss_bytes": 10338304,
+        "physical_footprint_bytes": 60424672,
+        "lifetime_peak_footprint_bytes": 60424672
+      },
+      "get_50_clients": {
+        "duration_seconds": 2.009472542005824,
+        "samples": 86,
+        "max_rss_bytes": 13139968,
+        "max_physical_footprint_bytes": 63128032,
+        "max_lifetime_peak_footprint_bytes": 63128032
+      },
+      "after_get": {
+        "rss_bytes": 13008896,
+        "physical_footprint_bytes": 63111648,
+        "lifetime_peak_footprint_bytes": 63128032
+      },
+      "flushed": {
+        "rss_bytes": 65568768,
+        "physical_footprint_bytes": 63193568,
+        "lifetime_peak_footprint_bytes": 63193568
+      },
+      "flushed_internal": {
+        "metric": "used_memory",
+        "bytes": 1084928,
+        "maxmemory_bytes": 67108864
+      },
+      "incremental_rss_bytes_per_key": 891.2896
+    },
+    {
+      "engine": "redis",
+      "run": 2,
+      "keys": 10000,
+      "value_bytes": 4096,
+      "ttl": false,
+      "dataset_sha256": "240181aba7a0d4dfd64c2ab7aaaabf5bb321dc869d043d19824503538b7443e2",
+      "empty": {
+        "rss_bytes": 7454720,
+        "physical_footprint_bytes": 3326360,
+        "lifetime_peak_footprint_bytes": 3326360
+      },
+      "loaded": {
+        "rss_bytes": 20414464,
+        "physical_footprint_bytes": 61473224,
+        "lifetime_peak_footprint_bytes": 61473224
+      },
+      "internal": {
+        "metric": "used_memory",
+        "bytes": 52859040,
+        "maxmemory_bytes": 67108864
+      },
+      "loading": {
+        "duration_seconds": 9.473686207988067,
+        "samples": 407,
+        "max_rss_bytes": 25591808,
+        "max_physical_footprint_bytes": 61424072,
+        "max_lifetime_peak_footprint_bytes": 61424072
+      },
+      "idle_50_clients": {
+        "rss_bytes": 19087360,
+        "physical_footprint_bytes": 62390728,
+        "lifetime_peak_footprint_bytes": 62390728
+      },
+      "get_50_clients": {
+        "duration_seconds": 2.0357296670263167,
+        "samples": 90,
+        "max_rss_bytes": 19054592,
+        "max_physical_footprint_bytes": 65733088,
+        "max_lifetime_peak_footprint_bytes": 65733088
+      },
+      "after_get": {
+        "rss_bytes": 7208960,
+        "physical_footprint_bytes": 65733088,
+        "lifetime_peak_footprint_bytes": 65733088
+      },
+      "flushed": {
+        "rss_bytes": 57622528,
+        "physical_footprint_bytes": 65798624,
+        "lifetime_peak_footprint_bytes": 65798624
+      },
+      "flushed_internal": {
+        "metric": "used_memory",
+        "bytes": 1084928,
+        "maxmemory_bytes": 67108864
+      },
+      "incremental_rss_bytes_per_key": 1295.9744
+    },
+    {
+      "engine": "expense-kv",
+      "run": 2,
+      "keys": 10000,
+      "value_bytes": 4096,
+      "ttl": false,
+      "dataset_sha256": "240181aba7a0d4dfd64c2ab7aaaabf5bb321dc869d043d19824503538b7443e2",
+      "empty": {
+        "rss_bytes": 1998848,
+        "physical_footprint_bytes": 1261952,
+        "lifetime_peak_footprint_bytes": 1294720
+      },
+      "loaded": {
+        "rss_bytes": 28082176,
+        "physical_footprint_bytes": 59523528,
+        "lifetime_peak_footprint_bytes": 59556296
+      },
+      "internal": {
+        "metric": "used_memory_estimate",
+        "bytes": 41740000,
+        "maxmemory_bytes": 67108864
+      },
+      "loading": {
+        "duration_seconds": 1.2493559999857098,
+        "samples": 53,
+        "max_rss_bytes": 56295424,
+        "max_physical_footprint_bytes": 59490760,
+        "max_lifetime_peak_footprint_bytes": 59523528
+      },
+      "idle_50_clients": {
+        "rss_bytes": 24576000,
+        "physical_footprint_bytes": 61293072,
+        "lifetime_peak_footprint_bytes": 61293072
+      },
+      "get_50_clients": {
+        "duration_seconds": 2.0158021669776645,
+        "samples": 86,
+        "max_rss_bytes": 17465344,
+        "max_physical_footprint_bytes": 63144464,
+        "max_lifetime_peak_footprint_bytes": 63226384
+      },
+      "after_get": {
+        "rss_bytes": 3244032,
+        "physical_footprint_bytes": 62276040,
+        "lifetime_peak_footprint_bytes": 63226384
+      },
+      "flushed": {
+        "rss_bytes": 57065472,
+        "physical_footprint_bytes": 62276040,
+        "lifetime_peak_footprint_bytes": 63226384
+      },
+      "flushed_internal": {
+        "metric": "used_memory_estimate",
+        "bytes": 0,
+        "maxmemory_bytes": 67108864
+      },
+      "incremental_rss_bytes_per_key": 2608.3328
+    },
+    {
+      "engine": "expense-kv",
+      "run": 3,
+      "keys": 10000,
+      "value_bytes": 4096,
+      "ttl": false,
+      "dataset_sha256": "240181aba7a0d4dfd64c2ab7aaaabf5bb321dc869d043d19824503538b7443e2",
+      "empty": {
+        "rss_bytes": 1998848,
+        "physical_footprint_bytes": 1261952,
+        "lifetime_peak_footprint_bytes": 1311128
+      },
+      "loaded": {
+        "rss_bytes": 10371072,
+        "physical_footprint_bytes": 60555720,
+        "lifetime_peak_footprint_bytes": 60604896
+      },
+      "internal": {
+        "metric": "used_memory_estimate",
+        "bytes": 41740000,
+        "maxmemory_bytes": 67108864
+      },
+      "loading": {
+        "duration_seconds": 0.69444800002384,
+        "samples": 31,
+        "max_rss_bytes": 48070656,
+        "max_physical_footprint_bytes": 60555720,
+        "max_lifetime_peak_footprint_bytes": 60604896
+      },
+      "idle_50_clients": {
+        "rss_bytes": 10043392,
+        "physical_footprint_bytes": 62145064,
+        "lifetime_peak_footprint_bytes": 62145064
+      },
+      "get_50_clients": {
+        "duration_seconds": 2.031810582993785,
+        "samples": 86,
+        "max_rss_bytes": 10993664,
+        "max_physical_footprint_bytes": 63210024,
+        "max_lifetime_peak_footprint_bytes": 63210024
+      },
+      "after_get": {
+        "rss_bytes": 2588672,
+        "physical_footprint_bytes": 56574408,
+        "lifetime_peak_footprint_bytes": 63210024
+      },
+      "flushed": {
+        "rss_bytes": 55476224,
+        "physical_footprint_bytes": 56590792,
+        "lifetime_peak_footprint_bytes": 63210024
+      },
+      "flushed_internal": {
+        "metric": "used_memory_estimate",
+        "bytes": 0,
+        "maxmemory_bytes": 67108864
+      },
+      "incremental_rss_bytes_per_key": 837.2224
+    },
+    {
+      "engine": "redis",
+      "run": 3,
+      "keys": 10000,
+      "value_bytes": 4096,
+      "ttl": false,
+      "dataset_sha256": "240181aba7a0d4dfd64c2ab7aaaabf5bb321dc869d043d19824503538b7443e2",
+      "empty": {
+        "rss_bytes": 4980736,
+        "physical_footprint_bytes": 3670448,
+        "lifetime_peak_footprint_bytes": 3670448
+      },
+      "loaded": {
+        "rss_bytes": 33079296,
+        "physical_footprint_bytes": 61784544,
+        "lifetime_peak_footprint_bytes": 61784544
+      },
+      "internal": {
+        "metric": "used_memory",
+        "bytes": 52859328,
+        "maxmemory_bytes": 67108864
+      },
+      "loading": {
+        "duration_seconds": 1.6470508330094162,
+        "samples": 72,
+        "max_rss_bytes": 48136192,
+        "max_physical_footprint_bytes": 61719008,
+        "max_lifetime_peak_footprint_bytes": 61719008
+      },
+      "idle_50_clients": {
+        "rss_bytes": 28786688,
+        "physical_footprint_bytes": 62538208,
+        "lifetime_peak_footprint_bytes": 62538208
+      },
+      "get_50_clients": {
+        "duration_seconds": 2.013970750005683,
+        "samples": 88,
+        "max_rss_bytes": 12795904,
+        "max_physical_footprint_bytes": 65880544,
+        "max_lifetime_peak_footprint_bytes": 65880544
+      },
+      "after_get": {
+        "rss_bytes": 9256960,
+        "physical_footprint_bytes": 65880544,
+        "lifetime_peak_footprint_bytes": 65880544
+      },
+      "flushed": {
+        "rss_bytes": 62816256,
+        "physical_footprint_bytes": 65946080,
+        "lifetime_peak_footprint_bytes": 65946080
+      },
+      "flushed_internal": {
+        "metric": "used_memory",
+        "bytes": 1084928,
+        "maxmemory_bytes": 67108864
+      },
+      "incremental_rss_bytes_per_key": 2809.856
+    },
+    {
+      "engine": "expense-kv",
+      "run": 1,
+      "keys": 512,
+      "value_bytes": 65536,
+      "ttl": false,
+      "dataset_sha256": "d8c58d59a0c698a1f40d0ce85f933a42af3fcfe8e5a3ebc9fd11ab3b9cbc96ab",
+      "empty": {
+        "rss_bytes": 1982464,
+        "physical_footprint_bytes": 1245568,
+        "lifetime_peak_footprint_bytes": 1294744
+      },
+      "loaded": {
+        "rss_bytes": 38862848,
+        "physical_footprint_bytes": 48808392,
+        "lifetime_peak_footprint_bytes": 48857568
+      },
+      "internal": {
+        "metric": "used_memory_estimate",
+        "bytes": 33594368,
+        "maxmemory_bytes": 67108864
+      },
+      "loading": {
+        "duration_seconds": 0.8309707089792937,
+        "samples": 36,
+        "max_rss_bytes": 47513600,
+        "max_physical_footprint_bytes": 48808392,
+        "max_lifetime_peak_footprint_bytes": 48857568
+      },
+      "idle_50_clients": {
+        "rss_bytes": 35635200,
+        "physical_footprint_bytes": 51053096,
+        "lifetime_peak_footprint_bytes": 51053096
+      },
+      "get_50_clients": {
+        "duration_seconds": 2.0168957090063486,
+        "samples": 88,
+        "max_rss_bytes": 73891840,
+        "max_physical_footprint_bytes": 103957080,
+        "max_lifetime_peak_footprint_bytes": 103973464
+      },
+      "after_get": {
+        "rss_bytes": 61308928,
+        "physical_footprint_bytes": 103072248,
+        "lifetime_peak_footprint_bytes": 103973464
+      },
+      "flushed": {
+        "rss_bytes": 36929536,
+        "physical_footprint_bytes": 82166264,
+        "lifetime_peak_footprint_bytes": 103973464
+      },
+      "flushed_internal": {
+        "metric": "used_memory_estimate",
+        "bytes": 0,
+        "maxmemory_bytes": 67108864
+      },
+      "incremental_rss_bytes_per_key": 72032.0
+    },
+    {
+      "engine": "redis",
+      "run": 1,
+      "keys": 512,
+      "value_bytes": 65536,
+      "ttl": false,
+      "dataset_sha256": "d8c58d59a0c698a1f40d0ce85f933a42af3fcfe8e5a3ebc9fd11ab3b9cbc96ab",
+      "empty": {
+        "rss_bytes": 5947392,
+        "physical_footprint_bytes": 3572120,
+        "lifetime_peak_footprint_bytes": 3572120
+      },
+      "loaded": {
+        "rss_bytes": 21233664,
+        "physical_footprint_bytes": 48824800,
+        "lifetime_peak_footprint_bytes": 48824800
+      },
+      "internal": {
+        "metric": "used_memory",
+        "bytes": 42985776,
+        "maxmemory_bytes": 67108864
+      },
+      "loading": {
+        "duration_seconds": 7.283881458017277,
+        "samples": 308,
+        "max_rss_bytes": 40452096,
+        "max_physical_footprint_bytes": 48759264,
+        "max_lifetime_peak_footprint_bytes": 48759264
+      },
+      "idle_50_clients": {
+        "rss_bytes": 22085632,
+        "physical_footprint_bytes": 49676768,
+        "lifetime_peak_footprint_bytes": 49676768
+      },
+      "get_50_clients": {
+        "duration_seconds": 2.1486942500050645,
+        "samples": 92,
+        "max_rss_bytes": 21856256,
+        "max_physical_footprint_bytes": 49791456,
+        "max_lifetime_peak_footprint_bytes": 49791456
+      },
+      "after_get": {
+        "rss_bytes": 4046848,
+        "physical_footprint_bytes": 49791456,
+        "lifetime_peak_footprint_bytes": 49791456
+      },
+      "flushed": {
+        "rss_bytes": 12664832,
+        "physical_footprint_bytes": 49856992,
+        "lifetime_peak_footprint_bytes": 49856992
+      },
+      "flushed_internal": {
+        "metric": "used_memory",
+        "bytes": 1085344,
+        "maxmemory_bytes": 67108864
+      },
+      "incremental_rss_bytes_per_key": 29856.0
+    },
+    {
+      "engine": "redis",
+      "run": 2,
+      "keys": 512,
+      "value_bytes": 65536,
+      "ttl": false,
+      "dataset_sha256": "d8c58d59a0c698a1f40d0ce85f933a42af3fcfe8e5a3ebc9fd11ab3b9cbc96ab",
+      "empty": {
+        "rss_bytes": 7127040,
+        "physical_footprint_bytes": 3490224,
+        "lifetime_peak_footprint_bytes": 3490224
+      },
+      "loaded": {
+        "rss_bytes": 23986176,
+        "physical_footprint_bytes": 50086368,
+        "lifetime_peak_footprint_bytes": 50086368
+      },
+      "internal": {
+        "metric": "used_memory",
+        "bytes": 42983264,
+        "maxmemory_bytes": 67108864
+      },
+      "loading": {
+        "duration_seconds": 3.0234741250169463,
+        "samples": 131,
+        "max_rss_bytes": 31539200,
+        "max_physical_footprint_bytes": 50004448,
+        "max_lifetime_peak_footprint_bytes": 50004448
+      },
+      "idle_50_clients": {
+        "rss_bytes": 20365312,
+        "physical_footprint_bytes": 51053024,
+        "lifetime_peak_footprint_bytes": 51053024
+      },
+      "get_50_clients": {
+        "duration_seconds": 2.0126327500038315,
+        "samples": 89,
+        "max_rss_bytes": 20692992,
+        "max_physical_footprint_bytes": 51134944,
+        "max_lifetime_peak_footprint_bytes": 51134944
+      },
+      "after_get": {
+        "rss_bytes": 4538368,
+        "physical_footprint_bytes": 49267168,
+        "lifetime_peak_footprint_bytes": 51134944
+      },
+      "flushed": {
+        "rss_bytes": 13533184,
+        "physical_footprint_bytes": 49332704,
+        "lifetime_peak_footprint_bytes": 51134944
+      },
+      "flushed_internal": {
+        "metric": "used_memory",
+        "bytes": 1085152,
+        "maxmemory_bytes": 67108864
+      },
+      "incremental_rss_bytes_per_key": 32928.0
+    },
+    {
+      "engine": "expense-kv",
+      "run": 2,
+      "keys": 512,
+      "value_bytes": 65536,
+      "ttl": false,
+      "dataset_sha256": "d8c58d59a0c698a1f40d0ce85f933a42af3fcfe8e5a3ebc9fd11ab3b9cbc96ab",
+      "empty": {
+        "rss_bytes": 1605632,
+        "physical_footprint_bytes": 1261952,
+        "lifetime_peak_footprint_bytes": 1294720
+      },
+      "loaded": {
+        "rss_bytes": 40026112,
+        "physical_footprint_bytes": 51085768,
+        "lifetime_peak_footprint_bytes": 51118536
+      },
+      "internal": {
+        "metric": "used_memory_estimate",
+        "bytes": 33594368,
+        "maxmemory_bytes": 67108864
+      },
+      "loading": {
+        "duration_seconds": 1.1886147500190418,
+        "samples": 53,
+        "max_rss_bytes": 43417600,
+        "max_physical_footprint_bytes": 51102152,
+        "max_lifetime_peak_footprint_bytes": 51118536
+      },
+      "idle_50_clients": {
+        "rss_bytes": 28852224,
+        "physical_footprint_bytes": 52642344,
+        "lifetime_peak_footprint_bytes": 52642344
+      },
+      "get_50_clients": {
+        "duration_seconds": 2.00845020901761,
+        "samples": 87,
+        "max_rss_bytes": 83034112,
+        "max_physical_footprint_bytes": 106103384,
+        "max_lifetime_peak_footprint_bytes": 106103384
+      },
+      "after_get": {
+        "rss_bytes": 62488576,
+        "physical_footprint_bytes": 89260536,
+        "lifetime_peak_footprint_bytes": 106103384
+      },
+      "flushed": {
+        "rss_bytes": 66895872,
+        "physical_footprint_bytes": 89260536,
+        "lifetime_peak_footprint_bytes": 106103384
+      },
+      "flushed_internal": {
+        "metric": "used_memory_estimate",
+        "bytes": 0,
+        "maxmemory_bytes": 67108864
+      },
+      "incremental_rss_bytes_per_key": 75040.0
+    },
+    {
+      "engine": "expense-kv",
+      "run": 3,
+      "keys": 512,
+      "value_bytes": 65536,
+      "ttl": false,
+      "dataset_sha256": "d8c58d59a0c698a1f40d0ce85f933a42af3fcfe8e5a3ebc9fd11ab3b9cbc96ab",
+      "empty": {
+        "rss_bytes": 1998848,
+        "physical_footprint_bytes": 1261952,
+        "lifetime_peak_footprint_bytes": 1294720
+      },
+      "loaded": {
+        "rss_bytes": 17596416,
+        "physical_footprint_bytes": 48398792,
+        "lifetime_peak_footprint_bytes": 48431560
+      },
+      "internal": {
+        "metric": "used_memory_estimate",
+        "bytes": 33594368,
+        "maxmemory_bytes": 67108864
+      },
+      "loading": {
+        "duration_seconds": 1.7479213749757037,
+        "samples": 77,
+        "max_rss_bytes": 26001408,
+        "max_physical_footprint_bytes": 48398792,
+        "max_lifetime_peak_footprint_bytes": 48431560
+      },
+      "idle_50_clients": {
+        "rss_bytes": 16891904,
+        "physical_footprint_bytes": 50463248,
+        "lifetime_peak_footprint_bytes": 50463248
+      },
+      "get_50_clients": {
+        "duration_seconds": 2.0131246249948163,
+        "samples": 90,
+        "max_rss_bytes": 66879488,
+        "max_physical_footprint_bytes": 100270656,
+        "max_lifetime_peak_footprint_bytes": 100336192
+      },
+      "after_get": {
+        "rss_bytes": 50069504,
+        "physical_footprint_bytes": 85033464,
+        "lifetime_peak_footprint_bytes": 100336192
+      },
+      "flushed": {
+        "rss_bytes": 54165504,
+        "physical_footprint_bytes": 85033464,
+        "lifetime_peak_footprint_bytes": 100336192
+      },
+      "flushed_internal": {
+        "metric": "used_memory_estimate",
+        "bytes": 0,
+        "maxmemory_bytes": 67108864
+      },
+      "incremental_rss_bytes_per_key": 30464.0
+    },
+    {
+      "engine": "redis",
+      "run": 3,
+      "keys": 512,
+      "value_bytes": 65536,
+      "ttl": false,
+      "dataset_sha256": "d8c58d59a0c698a1f40d0ce85f933a42af3fcfe8e5a3ebc9fd11ab3b9cbc96ab",
+      "empty": {
+        "rss_bytes": 7618560,
+        "physical_footprint_bytes": 3506608,
+        "lifetime_peak_footprint_bytes": 3506608
+      },
+      "loaded": {
+        "rss_bytes": 10633216,
+        "physical_footprint_bytes": 48234976,
+        "lifetime_peak_footprint_bytes": 48234976
+      },
+      "internal": {
+        "metric": "used_memory",
+        "bytes": 42985936,
+        "maxmemory_bytes": 67108864
+      },
+      "loading": {
+        "duration_seconds": 1.7683432920021005,
+        "samples": 76,
+        "max_rss_bytes": 40910848,
+        "max_physical_footprint_bytes": 48169440,
+        "max_lifetime_peak_footprint_bytes": 48169440
+      },
+      "idle_50_clients": {
+        "rss_bytes": 9125888,
+        "physical_footprint_bytes": 49185248,
+        "lifetime_peak_footprint_bytes": 49185248
+      },
+      "get_50_clients": {
+        "duration_seconds": 2.0145772079995368,
+        "samples": 86,
+        "max_rss_bytes": 6144000,
+        "max_physical_footprint_bytes": 49283552,
+        "max_lifetime_peak_footprint_bytes": 49283552
+      },
+      "after_get": {
+        "rss_bytes": 3817472,
+        "physical_footprint_bytes": 49283552,
+        "lifetime_peak_footprint_bytes": 49283552
+      },
+      "flushed": {
+        "rss_bytes": 4767744,
+        "physical_footprint_bytes": 49365472,
+        "lifetime_peak_footprint_bytes": 49365472
+      },
+      "flushed_internal": {
+        "metric": "used_memory",
+        "bytes": 1085152,
+        "maxmemory_bytes": 67108864
+      },
+      "incremental_rss_bytes_per_key": 5888.0
+    },
+    {
+      "engine": "expense-kv",
+      "run": 1,
+      "keys": 10000,
+      "value_bytes": 64,
+      "ttl": true,
+      "dataset_sha256": "ba1d3328bb5d84f162771a418a7f466ad676eb306613b7f77a4ac5cc5e36fe76",
+      "empty": {
+        "rss_bytes": 1998848,
+        "physical_footprint_bytes": 1261952,
+        "lifetime_peak_footprint_bytes": 1294720
+      },
+      "loaded": {
+        "rss_bytes": 2621440,
+        "physical_footprint_bytes": 4391320,
+        "lifetime_peak_footprint_bytes": 4424088
+      },
+      "internal": {
+        "metric": "used_memory_estimate",
+        "bytes": 2040000,
+        "maxmemory_bytes": 67108864
+      },
+      "loading": {
+        "duration_seconds": 99.6467903330049,
+        "samples": 4229,
+        "max_rss_bytes": 3112960,
+        "max_physical_footprint_bytes": 4424088,
+        "max_lifetime_peak_footprint_bytes": 4424088
+      },
+      "idle_50_clients": {
+        "rss_bytes": 4440064,
+        "physical_footprint_bytes": 6685176,
+        "lifetime_peak_footprint_bytes": 6685176
+      },
+      "get_50_clients": {
+        "duration_seconds": 2.1488545830070507,
+        "samples": 89,
+        "max_rss_bytes": 4341760,
+        "max_physical_footprint_bytes": 6898168,
+        "max_lifetime_peak_footprint_bytes": 6914552
+      },
+      "after_get": {
+        "rss_bytes": 2244608,
+        "physical_footprint_bytes": 6029744,
+        "lifetime_peak_footprint_bytes": 6914552
+      },
+      "flushed": {
+        "rss_bytes": 3637248,
+        "physical_footprint_bytes": 5996952,
+        "lifetime_peak_footprint_bytes": 6914552
+      },
+      "flushed_internal": {
+        "metric": "used_memory_estimate",
+        "bytes": 0,
+        "maxmemory_bytes": 67108864
+      },
+      "incremental_rss_bytes_per_key": 62.2592
+    },
+    {
+      "engine": "redis",
+      "run": 1,
+      "keys": 10000,
+      "value_bytes": 64,
+      "ttl": true,
+      "dataset_sha256": "ba1d3328bb5d84f162771a418a7f466ad676eb306613b7f77a4ac5cc5e36fe76",
+      "empty": {
+        "rss_bytes": 6373376,
+        "physical_footprint_bytes": 3637680,
+        "lifetime_peak_footprint_bytes": 3637680
+      },
+      "loaded": {
+        "rss_bytes": 7651328,
+        "physical_footprint_bytes": 5915056,
+        "lifetime_peak_footprint_bytes": 5915056
+      },
+      "internal": {
+        "metric": "used_memory",
+        "bytes": 2659744,
+        "maxmemory_bytes": 67108864
+      },
+      "loading": {
+        "duration_seconds": 1.5593839579960331,
+        "samples": 69,
+        "max_rss_bytes": 7782400,
+        "max_physical_footprint_bytes": 5849520,
+        "max_lifetime_peak_footprint_bytes": 5849520
+      },
+      "idle_50_clients": {
+        "rss_bytes": 8667136,
+        "physical_footprint_bytes": 6717872,
+        "lifetime_peak_footprint_bytes": 6717872
+      },
+      "get_50_clients": {
+        "duration_seconds": 2.114315707993228,
+        "samples": 91,
+        "max_rss_bytes": 8486912,
+        "max_physical_footprint_bytes": 6799792,
+        "max_lifetime_peak_footprint_bytes": 6799792
+      },
+      "after_get": {
+        "rss_bytes": 7241728,
+        "physical_footprint_bytes": 6799792,
+        "lifetime_peak_footprint_bytes": 6799792
+      },
+      "flushed": {
+        "rss_bytes": 6995968,
+        "physical_footprint_bytes": 6898096,
+        "lifetime_peak_footprint_bytes": 6898096
+      },
+      "flushed_internal": {
+        "metric": "used_memory",
+        "bytes": 1109904,
+        "maxmemory_bytes": 67108864
+      },
+      "incremental_rss_bytes_per_key": 127.7952
+    },
+    {
+      "engine": "redis",
+      "run": 2,
+      "keys": 10000,
+      "value_bytes": 64,
+      "ttl": true,
+      "dataset_sha256": "ba1d3328bb5d84f162771a418a7f466ad676eb306613b7f77a4ac5cc5e36fe76",
+      "empty": {
+        "rss_bytes": 6389760,
+        "physical_footprint_bytes": 3522992,
+        "lifetime_peak_footprint_bytes": 3522992
+      },
+      "loaded": {
+        "rss_bytes": 8454144,
+        "physical_footprint_bytes": 5833136,
+        "lifetime_peak_footprint_bytes": 5833136
+      },
+      "internal": {
+        "metric": "used_memory",
+        "bytes": 2659264,
+        "maxmemory_bytes": 67108864
+      },
+      "loading": {
+        "duration_seconds": 0.6141977499937639,
+        "samples": 28,
+        "max_rss_bytes": 8339456,
+        "max_physical_footprint_bytes": 5751216,
+        "max_lifetime_peak_footprint_bytes": 5751216
+      },
+      "idle_50_clients": {
+        "rss_bytes": 9437184,
+        "physical_footprint_bytes": 6717872,
+        "lifetime_peak_footprint_bytes": 6717872
+      },
+      "get_50_clients": {
+        "duration_seconds": 2.0106211669917684,
+        "samples": 87,
+        "max_rss_bytes": 9453568,
+        "max_physical_footprint_bytes": 6816176,
+        "max_lifetime_peak_footprint_bytes": 6816176
+      },
+      "after_get": {
+        "rss_bytes": 8454144,
+        "physical_footprint_bytes": 6816176,
+        "lifetime_peak_footprint_bytes": 6816176
+      },
+      "flushed": {
+        "rss_bytes": 8503296,
+        "physical_footprint_bytes": 6881712,
+        "lifetime_peak_footprint_bytes": 6881712
+      },
+      "flushed_internal": {
+        "metric": "used_memory",
+        "bytes": 1110096,
+        "maxmemory_bytes": 67108864
+      },
+      "incremental_rss_bytes_per_key": 206.4384
+    },
+    {
+      "engine": "expense-kv",
+      "run": 2,
+      "keys": 10000,
+      "value_bytes": 64,
+      "ttl": true,
+      "dataset_sha256": "ba1d3328bb5d84f162771a418a7f466ad676eb306613b7f77a4ac5cc5e36fe76",
+      "empty": {
+        "rss_bytes": 1523712,
+        "physical_footprint_bytes": 1261952,
+        "lifetime_peak_footprint_bytes": 1294720
+      },
+      "loaded": {
+        "rss_bytes": 3244032,
+        "physical_footprint_bytes": 4407704,
+        "lifetime_peak_footprint_bytes": 4440472
+      },
+      "internal": {
+        "metric": "used_memory_estimate",
+        "bytes": 2040000,
+        "maxmemory_bytes": 67108864
+      },
+      "loading": {
+        "duration_seconds": 58.6167129999958,
+        "samples": 2482,
+        "max_rss_bytes": 3489792,
+        "max_physical_footprint_bytes": 4440472,
+        "max_lifetime_peak_footprint_bytes": 4440472
+      },
+      "idle_50_clients": {
+        "rss_bytes": 5390336,
+        "physical_footprint_bytes": 6685176,
+        "lifetime_peak_footprint_bytes": 6685176
+      },
+      "get_50_clients": {
+        "duration_seconds": 2.0141227080021054,
+        "samples": 85,
+        "max_rss_bytes": 5537792,
+        "max_physical_footprint_bytes": 6914552,
+        "max_lifetime_peak_footprint_bytes": 6947320
+      },
+      "after_get": {
+        "rss_bytes": 4718592,
+        "physical_footprint_bytes": 6046128,
+        "lifetime_peak_footprint_bytes": 6947320
+      },
+      "flushed": {
+        "rss_bytes": 6176768,
+        "physical_footprint_bytes": 6062512,
+        "lifetime_peak_footprint_bytes": 6947320
+      },
+      "flushed_internal": {
+        "metric": "used_memory_estimate",
+        "bytes": 0,
+        "maxmemory_bytes": 67108864
+      },
+      "incremental_rss_bytes_per_key": 172.032
+    },
+    {
+      "engine": "expense-kv",
+      "run": 3,
+      "keys": 10000,
+      "value_bytes": 64,
+      "ttl": true,
+      "dataset_sha256": "ba1d3328bb5d84f162771a418a7f466ad676eb306613b7f77a4ac5cc5e36fe76",
+      "empty": {
+        "rss_bytes": 1998848,
+        "physical_footprint_bytes": 1261952,
+        "lifetime_peak_footprint_bytes": 1294720
+      },
+      "loaded": {
+        "rss_bytes": 3981312,
+        "physical_footprint_bytes": 4358552,
+        "lifetime_peak_footprint_bytes": 4538776
+      },
+      "internal": {
+        "metric": "used_memory_estimate",
+        "bytes": 2040000,
+        "maxmemory_bytes": 67108864
+      },
+      "loading": {
+        "duration_seconds": 28.779094249999616,
+        "samples": 1228,
+        "max_rss_bytes": 3932160,
+        "max_physical_footprint_bytes": 4538776,
+        "max_lifetime_peak_footprint_bytes": 4538776
+      },
+      "idle_50_clients": {
+        "rss_bytes": 6045696,
+        "physical_footprint_bytes": 6488568,
+        "lifetime_peak_footprint_bytes": 6488568
+      },
+      "get_50_clients": {
+        "duration_seconds": 2.0135541660129093,
+        "samples": 84,
+        "max_rss_bytes": 7077888,
+        "max_physical_footprint_bytes": 7504376,
+        "max_lifetime_peak_footprint_bytes": 7520760
+      },
+      "after_get": {
+        "rss_bytes": 6225920,
+        "physical_footprint_bytes": 6570416,
+        "lifetime_peak_footprint_bytes": 7520760
+      },
+      "flushed": {
+        "rss_bytes": 6995968,
+        "physical_footprint_bytes": 6570416,
+        "lifetime_peak_footprint_bytes": 7520760
+      },
+      "flushed_internal": {
+        "metric": "used_memory_estimate",
+        "bytes": 0,
+        "maxmemory_bytes": 67108864
+      },
+      "incremental_rss_bytes_per_key": 198.2464
+    },
+    {
+      "engine": "redis",
+      "run": 3,
+      "keys": 10000,
+      "value_bytes": 64,
+      "ttl": true,
+      "dataset_sha256": "ba1d3328bb5d84f162771a418a7f466ad676eb306613b7f77a4ac5cc5e36fe76",
+      "empty": {
+        "rss_bytes": 7618560,
+        "physical_footprint_bytes": 3490200,
+        "lifetime_peak_footprint_bytes": 3490200
+      },
+      "loaded": {
+        "rss_bytes": 9961472,
+        "physical_footprint_bytes": 5767576,
+        "lifetime_peak_footprint_bytes": 5767576
+      },
+      "internal": {
+        "metric": "used_memory",
+        "bytes": 2658624,
+        "maxmemory_bytes": 67108864
+      },
+      "loading": {
+        "duration_seconds": 0.3235540419991594,
+        "samples": 15,
+        "max_rss_bytes": 9895936,
+        "max_physical_footprint_bytes": 5718424,
+        "max_lifetime_peak_footprint_bytes": 5718424
+      },
+      "idle_50_clients": {
+        "rss_bytes": 10911744,
+        "physical_footprint_bytes": 6717848,
+        "lifetime_peak_footprint_bytes": 6717848
+      },
+      "get_50_clients": {
+        "duration_seconds": 2.0094000840035733,
+        "samples": 85,
+        "max_rss_bytes": 10928128,
+        "max_physical_footprint_bytes": 6783384,
+        "max_lifetime_peak_footprint_bytes": 6783384
+      },
+      "after_get": {
+        "rss_bytes": 8126464,
+        "physical_footprint_bytes": 6783384,
+        "lifetime_peak_footprint_bytes": 6783384
+      },
+      "flushed": {
+        "rss_bytes": 9240576,
+        "physical_footprint_bytes": 6881688,
+        "lifetime_peak_footprint_bytes": 6881688
+      },
+      "flushed_internal": {
+        "metric": "used_memory",
+        "bytes": 1109904,
+        "maxmemory_bytes": 67108864
+      },
+      "incremental_rss_bytes_per_key": 234.2912
+    }
+  ],
+  "summary": [
+    {
+      "engine": "expense-kv",
+      "keys": 10000,
+      "value_bytes": 64,
+      "ttl": false,
+      "payload_bytes": 780000,
+      "rss_bytes_per_key": 298.1888,
+      "empty_rss": 1654784,
+      "loaded_rss": 4620288,
+      "idle_rss": 6520832,
+      "get_peak_rss": 6438912,
+      "flushed_rss": 5226496,
+      "internal_bytes": 1420000,
+      "loaded_footprint": 4686232,
+      "get_peak_footprint": 7045648,
+      "lifetime_peak_footprint": 7111184
+    },
+    {
+      "engine": "redis",
+      "keys": 10000,
+      "value_bytes": 64,
+      "ttl": false,
+      "payload_bytes": 780000,
+      "rss_bytes_per_key": -132.7104,
+      "empty_rss": 6897664,
+      "loaded_rss": 4767744,
+      "idle_rss": 5505024,
+      "get_peak_rss": 5128192,
+      "flushed_rss": 5603328,
+      "internal_bytes": 2463232,
+      "loaded_footprint": 5554608,
+      "get_peak_footprint": 6488496,
+      "lifetime_peak_footprint": 6537648
+    },
+    {
+      "engine": "expense-kv",
+      "keys": 50000,
+      "value_bytes": 64,
+      "ttl": false,
+      "payload_bytes": 3900000,
+      "rss_bytes_per_key": 207.74912,
+      "empty_rss": 1998848,
+      "loaded_rss": 12386304,
+      "idle_rss": 13254656,
+      "get_peak_rss": 12369920,
+      "flushed_rss": 15204352,
+      "internal_bytes": 7100000,
+      "loaded_footprint": 14303640,
+      "get_peak_footprint": 16499168,
+      "lifetime_peak_footprint": 16499168
+    },
+    {
+      "engine": "redis",
+      "keys": 50000,
+      "value_bytes": 64,
+      "ttl": false,
+      "payload_bytes": 3900000,
+      "rss_bytes_per_key": 150.40512,
+      "empty_rss": 7340032,
+      "loaded_rss": 13877248,
+      "idle_rss": 14811136,
+      "get_peak_rss": 14893056,
+      "flushed_rss": 9191424,
+      "internal_bytes": 8174224,
+      "loaded_footprint": 11633072,
+      "get_peak_footprint": 12583344,
+      "lifetime_peak_footprint": 12583344
+    },
+    {
+      "engine": "expense-kv",
+      "keys": 10000,
+      "value_bytes": 4096,
+      "ttl": false,
+      "payload_bytes": 41100000,
+      "rss_bytes_per_key": 1743.2576,
+      "empty_rss": 1998848,
+      "loaded_rss": 19431424,
+      "idle_rss": 21413888,
+      "get_peak_rss": 17465344,
+      "flushed_rss": 55476224,
+      "internal_bytes": 41740000,
+      "loaded_footprint": 60555720,
+      "get_peak_footprint": 63210024,
+      "lifetime_peak_footprint": 63226384
+    },
+    {
+      "engine": "redis",
+      "keys": 10000,
+      "value_bytes": 4096,
+      "ttl": false,
+      "payload_bytes": 41100000,
+      "rss_bytes_per_key": 1295.9744,
+      "empty_rss": 7454720,
+      "loaded_rss": 20414464,
+      "idle_rss": 19087360,
+      "get_peak_rss": 13139968,
+      "flushed_rss": 62816256,
+      "internal_bytes": 52859328,
+      "loaded_footprint": 61473224,
+      "get_peak_footprint": 65733088,
+      "lifetime_peak_footprint": 65798624
+    },
+    {
+      "engine": "expense-kv",
+      "keys": 512,
+      "value_bytes": 65536,
+      "ttl": false,
+      "payload_bytes": 33561600,
+      "rss_bytes_per_key": 72032.0,
+      "empty_rss": 1982464,
+      "loaded_rss": 38862848,
+      "idle_rss": 28852224,
+      "get_peak_rss": 73891840,
+      "flushed_rss": 54165504,
+      "internal_bytes": 33594368,
+      "loaded_footprint": 48808392,
+      "get_peak_footprint": 103957080,
+      "lifetime_peak_footprint": 103973464
+    },
+    {
+      "engine": "redis",
+      "keys": 512,
+      "value_bytes": 65536,
+      "ttl": false,
+      "payload_bytes": 33561600,
+      "rss_bytes_per_key": 29856.0,
+      "empty_rss": 7127040,
+      "loaded_rss": 21233664,
+      "idle_rss": 20365312,
+      "get_peak_rss": 20692992,
+      "flushed_rss": 12664832,
+      "internal_bytes": 42985776,
+      "loaded_footprint": 48824800,
+      "get_peak_footprint": 49791456,
+      "lifetime_peak_footprint": 49856992
+    },
+    {
+      "engine": "expense-kv",
+      "keys": 10000,
+      "value_bytes": 64,
+      "ttl": true,
+      "payload_bytes": 780000,
+      "rss_bytes_per_key": 172.032,
+      "empty_rss": 1998848,
+      "loaded_rss": 3244032,
+      "idle_rss": 5390336,
+      "get_peak_rss": 5537792,
+      "flushed_rss": 6176768,
+      "internal_bytes": 2040000,
+      "loaded_footprint": 4391320,
+      "get_peak_footprint": 6914552,
+      "lifetime_peak_footprint": 6947320
+    },
+    {
+      "engine": "redis",
+      "keys": 10000,
+      "value_bytes": 64,
+      "ttl": true,
+      "payload_bytes": 780000,
+      "rss_bytes_per_key": 206.4384,
+      "empty_rss": 6389760,
+      "loaded_rss": 8454144,
+      "idle_rss": 9437184,
+      "get_peak_rss": 9453568,
+      "flushed_rss": 8503296,
+      "internal_bytes": 2659264,
+      "loaded_footprint": 5833136,
+      "get_peak_footprint": 6799792,
+      "lifetime_peak_footprint": 6881712
+    }
+  ],
+  "binaries_sha256": {
+    "expense-kv": "3df162cd21c7f9d90569d14386c3db314459a226ebe282eca39d837a34972c6c",
+    "redis": "13703b40bc2492e8a6e4d53821e599cd5068c9da76e7e45b1030cf3f904942f9"
+  },
+  "system_memory_end": {
+    "vm_stat": "Mach Virtual Memory Statistics: (page size of 16384 bytes)\nPages free:                                     4153.\nPages active:                                  64628.\nPages inactive:                                59181.\nPages speculative:                              4690.\nPages throttled:                                   0.\nPages wired down:                             166770.\nPages purgeable:                                   2.\n\"Translation faults\":                     4512774881.\nPages copy-on-write:                        21314874.\nPages zero filled:                        2044800435.\nPages reactivated:                        2186551919.\nPages purged:                               94869303.\nFile-backed pages:                             54830.\nAnonymous pages:                               73669.\nPages stored in compressor:                   373438.\nPages occupied by compressor:                 187363.\nDecompressions:                           2471805478.\nCompressions:                             2608006556.\nPageins:                                   301741997.\nPageouts:                                    5030972.\nSwapins:                                    98002741.\nSwapouts:                                  102027214.",
+    "swapusage": "vm.swapusage: total = 8192.00M  used = 7519.69M  free = 672.31M  (encrypted)",
+    "total_bytes": "8589934592"
+  }
+}

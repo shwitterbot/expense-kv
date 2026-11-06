@@ -1,0 +1,10 @@
+/target/
+__pycache__/
+*.pyc
+.DS_Store
+/data/
+/.idea/
+.env
+.env.*
+*.aof
+rewrite.tmp

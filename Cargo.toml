@@ -1,0 +1,13 @@
+[package]
+name = "expense-kv"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.89"
+description = "Small persistent RESP2 key-value server for ExpenseTrackerDjango"
+
+[dependencies]
+
+[profile.release]
+lto = true
+codegen-units = 1
+strip = true
